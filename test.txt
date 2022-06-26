@@ -1,0 +1,47 @@
+<li class="header-menu-primary__item header-menu-primary__item--level-3 dropdown"  role="presentation">
+																								<a  class=" header-menu-primary__item-link-label dropbtn">Baznīcas</a>
+																									<div class="dropdown-content">
+																									  <a href="luteranu-baznica.php">Luterāņu</a>
+																									  <a href="pareizticigo-baznica.php">Pareictīcīga</a>
+																									  <a href="katolu-baznica.php">Katoļu</a>
+																									</div>
+																							</li>'
+                                                                                            <style>
+			.dropbtn {
+		  color: rgb(0, 0, 0);
+		  border: none;
+		 
+			}
+			
+			
+			.dropdown {
+			  position: relative;
+			  display: inline-block;
+			}
+			
+			.dropdown-content {
+			  display: none;
+			  position: absolute;
+			  
+			 
+			}
+			
+			.dropdown-content a {
+			  color: black;
+			  padding: 5px 6px  ;
+			  
+			  display: block;
+			  
+			}
+			.dropdown-content :hover{
+				color: rgb(85, 85, 175);
+			  
+			}
+			a:hover{
+				color: rgb(85, 85, 175);
+			}
+			
+			.dropdown:hover .dropdown-content {display: block;}
+		
+			
+			</style>
